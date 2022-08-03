@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"         content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Small form for the first FreeCodeCamp activity</p>
+    <form id="survey-form">
+      <label id="name-label">Name:  <input type="text" id="name" name="name" placeholder="Enter your name" required></label>
+      <label id="email-label">Email: <input type="email" id="email" name="name" placeholder="Enter your email" required></label>
+      <label id="number-label">Age (years):  <input type="number" id="number" name="age" placeholder="Age" min="10" max="120"></label>
+      <label>Which option best describes your current role?
+<select id="dropdown" name="select">
+  <option value="" name="option_0">Select current role</option>
+  <option value="1" name="option_1">Student</option>
+  <option value="2" name="option_2">Full Time Job</option>
+  <option value="3" name="option_3">Prefer not to say</option>
+</select>
+</label>
+<span>Would you recommend freeCodeCamp to a friend?</span>
+<label class="item"><input type="radio" class="inline" name="account-type" value="Definitely"> Definitely</label>
+<label class="item"><input type="radio" class="inline" name="account-type" value="Maybe"> Maybe</label>
+<label class="item"><input type="radio" class="inline" name="account-type" value="NotSure"> Not Sure</label>
+<span>
+What is your favorite Hogwarts House?</span>
+<label class="item"><input type="checkbox" name="check_1" value="checkbox"> Griffyndor</label>
+<label class="item"><input type="checkbox" name="check_2" value="checkbox"> Slytherin</label>
+<label class="item"><input type="checkbox" name="check_3" value="checkbox"> Ravenclaw</label>
+<label class="item"><input type="checkbox" name="check_4" value="checkbox"> Hufflepuff</label>
+
+<label>Any comments or suggestions?
+<textarea rows="4" cols="50" name="textarea" placeholder="Any aditional comment?"></textarea>
+</label>
+
+<input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>
