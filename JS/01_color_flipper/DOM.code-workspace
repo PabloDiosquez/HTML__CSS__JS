@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../DOM"
+		},
+		{
+			"path": "../../../javascript-basic-projects-master/01-color-flipper/setup"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DOM"
+	}
+}
